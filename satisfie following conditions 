@@ -1,0 +1,10 @@
+a)Add string ‘ing’ at end of given string if length is more than 3.
+b)If given string adds with ing,then add ly.
+c)If length of string is less than 3,leave it unchanged.
+x='my name is gupta'
+y='ing'
+z=x+y
+if len(x)>3:
+    print(z)
+else:
+    print(x)
